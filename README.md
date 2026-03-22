@@ -4,9 +4,11 @@
 > KHOA KHOA HỌC VÀ KỸ THUẬT MÁY TÍNH  
 >   
 > Học viên cao học: NGUYỄN XUÂN HIỀN  
-> Mã số học viên: 2470749  
+> Mã số học viên: 2470749
+> Thư điện tử: nxhien.sdh242@hcmut.edu.vn  
 > Bộ môn: LẬP TRÌNH THIẾT BỊ KẾT NỐI MẠNG (IOT)  
-> Giảng viên hướng dẫn: Tiến sỹ LÊ TRỌNG NHÂN
+> Giảng viên hướng dẫn: Tiến sỹ LÊ TRỌNG NHÂN  
+> Liên kết dự án: https://github.com/hiennx2k4/HCMUT_IoTProgramming
 ---
 ### Danh mục báo cáo 
 - Báo cáo và mã nguồn thí nghiệm (laboratory experiment).
