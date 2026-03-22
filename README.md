@@ -1,5 +1,5 @@
 ## BÁO CÁO MÔN HỌC
-> ĐẠI HỌC QUỐC GIA TP.HCM  
+> ĐẠI HỌC QUỐC GIA TP.HỒ CHÍ MINH  
 > TRƯỜNG ĐẠI HỌC BÁCH KHOA  
 > KHOA KHOA HỌC VÀ KỸ THUẬT MÁY TÍNH  
 >   
