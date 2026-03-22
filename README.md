@@ -5,7 +5,7 @@
 >   
 > Học viên cao học: NGUYỄN XUÂN HIỀN  
 > Mã số học viên: 2470749  
-> Bộ môn: LẬP TRÌNH THIẾT BỊ KẾT NỐI MẠNG (IOT)
+> Bộ môn: LẬP TRÌNH THIẾT BỊ KẾT NỐI MẠNG (IOT)  
 > Giảng viên hướng dẫn: Tiến sỹ LÊ TRỌNG NHÂN
 ---
 ### Danh mục báo cáo 
