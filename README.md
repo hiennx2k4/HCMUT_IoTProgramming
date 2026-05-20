@@ -15,6 +15,6 @@
 - Báo cáo và mã nguồn đồ án (prototype project).
 ---
 ### Báo cáo cập nhật 
-- Ngày phát hành - 2026-03-22:  
+- Ngày phát hành - 2026-05-20:  
 	Khởi tạo mã nguồn.  
 	Khởi tạo báo cáo.  

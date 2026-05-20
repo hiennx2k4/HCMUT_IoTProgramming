@@ -23,7 +23,7 @@ async def initial():
   create_task(LED_change())
 # Define the main() function
 async def main():
-  await setup()
+  await initial()
   while True:
     await asleep_ms(0)
 # Run and loop infinitely application by main() function
