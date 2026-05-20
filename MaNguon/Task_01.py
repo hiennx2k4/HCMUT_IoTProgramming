@@ -1,28 +1,29 @@
-# Khai báo thư viện sử dụng
-# Thư viện các tập lệnh riêng của thiết bị Yolo:Uno
+# Declare and import library
+# Using library of Yolo:Uno device
 from yolo_uno import *
-# Thư viện các tập lệnh về chân cắm
+# Using library of pins control
 from pins import *
-# Khai báo chân cắm số 13 (đèn LED)
+# Declare LED as 13th pin
 led_D13 = Pins(D13_PIN)
-# Tạo hàm điều khiển đèn LED (tắt/mở)
-# Thời gian chờ giữa mỗi lệnh là 1.000 ms (1 giây)
+# Define LED_blink() function to control LED status (ON/OFF)
+# Set delay time to 1.000 ms (1 second)
 async def LED_blink():
   while True:
-    await asleep_ms(50)
     led_D13.write_digital(1)
     await asleep_ms(1000)
     led_D13.write_digital(0)
     await asleep_ms(1000)
-# Hàm khởi chạy cho thiết bị
+# Define the initial() function to manage task
 async def initial():
+  # Show application status
   print('App started')
-  # Khai báo tác vụ (tiến trình) chạy độc lập cho hàm LED_blink()
+  # Create an independent task or process for LED_blink() 
+  # function
   create_task(LED_blink())
-# Hàm khởi chạy chính cho thiết bị
+# Define the main() function
 async def main():
   await initial()
   while True:
-    await asleep_ms(100)
-# Hàm khởi chạy hàm chính với vòng lặp vô tận
+    await asleep_ms(0)
+# Run and loop infinitely application by main() function
 run_loop(main())
